@@ -1,0 +1,1165 @@
+/* ******* :: INDEX OF CSS :: *******
+:: 1.0 WEB FONTS
+:: 2.0 IMPORT ALL CSS
+:: 3.0 GLOBAL CSS
+:: 4.0 COMMON CSS
+:: 6.0 SCROLL TO TOP AREA CSS
+:: 7.0 HEADER AREA CSS
+:: 8.0 WELCOME AREA CSS
+:: 9.0 BOOKING AREA CSS
+:: 10.0 EXPERIENCE AREA CSS
+:: 11.0 M5 AREA CSS
+:: 12.0 Fighter AREA CSS
+:: 13.0 Se AREA CSS
+:: 14.0 venice AREA CSS
+:: 15.0 High Speed AREA CSS
+:: 16.0 Slow Speed AREA CSS
+:: 17.0  Feature AREA CSS
+****************************** */
+
+
+/* ******************************
+:: 1.0 WEB FONTS
+****************************** */
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600&display=swap');
+
+/* font-family: 'Advent Pro', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+/* ******************************
+:: 2.0 IMPORT ALL CSS
+****************************** */
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+@import url(animate.min.css);
+@import url(aos.css);
+@import url(owl.carousel.min.css);
+@import url(jquery.fancybox.min.css);
+
+/* ******************************
+:: 3.0 GLOBAL CSS
+****************************** */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #777;
+}
+
+.main {
+    overflow: hidden;
+}
+
+section,
+.section {
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    padding: 0 5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    color: #1c144e;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #777;
+    margin-bottom: 0;
+}
+
+a {
+    color: #444;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+a,
+a:hover,
+a:focus,
+.btn:focus {
+    text-decoration: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ol li,
+ul li {
+    list-style: none;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.text-primary {
+    color: #2d3136 !important;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+/* ******************************
+:: 4.0 COMMON CSS
+****************************** */
+.h-100vh {
+    height: 100vh;
+}
+
+.bg-img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+}
+
+.owl-prev:focus,
+.owl-next:focus {
+    outline: none;
+}
+
+/*SECTION PADDING*/
+.pt_0 {
+    padding-top: 0;
+}
+
+.ptb_50 {
+    padding: 50px 0;
+}
+
+.ptb_100 {
+    padding: 100px 0;
+}
+
+.ptb_150 {
+    padding: 150px 0;
+}
+
+.ptb_180 {
+    padding: 180px 0;
+}
+
+/*BUTTONS*/
+.btn {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    padding: 14px 30px;
+    border: 0 none;
+    border-radius: 100px;
+    outline: 0 none;
+    position: relative;
+    z-index: 1;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+    color: #fff;
+    -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* ******************************
+:: 6.0 SCROLL TO TOP AREA CSS
+****************************** */
+#scrollUp {
+    position: fixed;
+    right: 1%;
+    bottom: 3%;
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+    background-color: #000000;
+    text-align: center;
+    cursor: pointer;
+    z-index: 500;
+    display: none;
+    line-height: 46px;
+}
+
+#scrollUp > svg {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+}
+
+#scrollUp:hover {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+
+/* ******************************
+:: 7.0 HEADER AREA CSS
+****************************** */
+.hero-wrapper .svg-clipped {
+    -webkit-clip-path: url(#svgPath);
+    clip-path: url(#svgPath);
+    height: 100%;
+    z-index: -1;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    z-index: 999;
+    -webkit-transition: .3s;
+    transition: .3s;
+    background: rgba(0, 0, 0, 0.33);
+}
+
+.navbar .navbar-nav .nav-link {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-link:hover,
+.navbar.navbar-dark .navbar-nav .nav-link:focus,
+.navbar.navbar-dark .navbar-nav .nav-link.active,
+.navbar.navbar-dark .navbar-nav .nav-link.current-menu-item {
+    color: rgba(255, 122, 0, 1);
+    position: relative;
+}
+
+.navbar .navbar-brand-sticky {
+    display: none;
+}
+
+.navbar-sticky {
+    -webkit-transition: none;
+    transition: none;
+}
+
+.navbar-sticky-transitioned {
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.navbar-sticky-moved-up {
+    position: fixed;
+    top: 0;
+    background: #000000;
+    margin-top: -100px;
+}
+
+[data-theme=dark] .navbar-sticky-moved-up {
+    background: #01081f;
+    -webkit-box-shadow: 0 4px 25px rgba(30, 39, 69, 0.3), 0 1px 0px rgba(30, 39, 69, 0.4);
+    box-shadow: 0 4px 25px rgba(30, 39, 69, 0.3), 0 1px 0px rgba(30, 39, 69, 0.4);
+}
+
+.navbar-sticky-on {
+    margin-top: 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
+}
+
+.navbar-sticky-on .navbar-brand-regular {
+    display: none;
+}
+
+.navbar-sticky-on .navbar-brand-sticky {
+    display: inline;
+}
+
+/*NAVBAR DARK*/
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .btn-outline {
+    color: #fff;
+}
+
+.navbar-dark.navbar-sticky-on .navbar-nav .nav-link {
+    color: #7e8085;
+}
+
+[data-theme=dark] .navbar-dark.navbar-sticky-on .navbar-nav .nav-link {
+    color: #e7eaee;
+}
+
+.navbar-dark.navbar-sticky-on .navbar-nav .nav-link:hover,
+.navbar-dark.navbar-sticky-on .navbar-nav .nav-link:focus,
+.navbar-dark.navbar-sticky-on .navbar-nav .nav-link.active,
+.navbar-dark.navbar-sticky-on .navbar-nav .nav-link.current-menu-item {
+    color: #F7CE04;
+}
+
+[data-theme=dark] .navbar-dark.navbar-sticky-on .navbar-nav .nav-link:hover,
+[data-theme=dark] .navbar-dark.navbar-sticky-on .navbar-nav .nav-link:focus,
+[data-theme=dark] .navbar-dark.navbar-sticky-on .navbar-nav .nav-link.active,
+[data-theme=dark] .navbar-dark.navbar-sticky-on .navbar-nav .nav-link.current-menu-item {
+    color: #F7CE04;
+}
+
+.navbar-dark .navbar-brand{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar-nav{
+    position: relative;
+}
+
+.navbar-nav::before{
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid rgba(255, 244, 244, 1);
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: 20px;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-link.first-child{
+    padding-left: 0px !important;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-btn.last-child{
+    padding-right: 0 !important;
+}
+
+.nav-btn{
+    border: none;
+    outline: none;
+}
+
+.nav-btn:focus{
+    border: none;
+    outline: none;
+}
+
+.nav-btn span{
+    background: #fff;
+    height: 1px;
+    /* width: 50%; */
+    display: inline-block;
+    transition: .3s ease-in-out;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: none !important;
+}
+
+.nav-btn span::before,
+.nav-btn span::after{
+    background: #fff;
+    content: "";
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.nav-btn span::before{
+    top: -0.455rem;
+}
+
+.nav-btn span::after{
+    top: 0.455rem;
+}
+
+
+/* ******************************
+:: 8.0 WELCOME AREA CSS
+****************************** */
+.welcome-slider{
+    position: relative;
+}
+
+.banner-img{
+    background-image: url(../img/bg/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 877px;
+}
+
+.banner-title{
+    max-width: 400px;
+}
+
+.banner-title span{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 400;
+    font-size: 68px;  
+}
+
+.banner-title h2{
+    color: rgba(255, 122, 0, 1);
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.banner-title h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 65px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.banner-title .bnr-btn a{
+    background-color: rgba(255, 122, 0, 1);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: all .3s ease-in-out;
+    border: 1px solid rgba(255, 122, 0, 1);
+}
+
+.banner-title .bnr-btn a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.playbtn-banner a{
+    background-color: rgba(255, 255, 255, .5);
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    -webkit-animation: spineer 2s infinite;
+    animation: spineer 2s infinite;
+    border: 1px solid #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 99;
+}
+
+.playbtn-banner a::before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@-webkit-keyframes spineer {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 #c7c1ea;
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 20px rgba(1, 93, 199, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(1, 93, 199, 0);
+    }
+}
+
+@keyframes spineer {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 #c7c1ea;
+        box-shadow: 0 0 0 0 #c7c1ea;
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 20px rgba(1, 93, 199, 0);
+        box-shadow: 0 0 0 20px rgba(1, 93, 199, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(1, 93, 199, 0);
+        box-shadow: 0 0 0 0 rgba(1, 93, 199, 0);
+    }
+}
+
+.banner-details{
+    position: relative;
+}
+
+.banner-details::before{
+    position: absolute;
+    content: "";
+    background-color: rgba(255, 122, 0, 1);
+    width: 2px;
+    height: 250px;
+    top: 5px;
+    left: -25px;
+}
+
+.banner-details .item1 span{ 
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.banner-details .item1 h3{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.banner-details .item2 span{
+    color: rgba(255, 253, 253, 1);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.banner-details .item2 h3{
+    color: rgba(255, 253, 253, 1);
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.banner-details .item3 span{
+    color: rgba(255, 245, 245, 1);
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.banner-details .item3 h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: rgba(255, 245, 245, 1);
+}
+
+.banner-img{
+    position: relative;
+}
+
+.banner-overlay{
+    background-color: rgba(0, 0, 0, 0.33);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.welcome-slider .owl-dots{
+    position: relative;
+    top: -155px;
+    text-align: center;
+    left: -22%;
+}
+
+.welcome-slider .owl-dots button{
+    background: transparent !important; 
+    border: 1px solid #fff; 
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.welcome-slider .owl-dots button.active,
+.welcome-slider .owl-dots button:hover{
+    background-color: #fff !important;
+}
+
+.welcome-slider .owl-dots button:focus{
+    outline: none;
+}
+
+.welcome-slider .owl-nav button.owl-prev{
+    position: absolute;
+    top: 80%;
+    left: 105px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all .3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.welcome-slider .owl-nav button.owl-prev img{
+    transform: rotate(180deg);
+    margin-right: 8px;
+}
+
+.welcome-slider .owl-nav button.owl-next{
+    position: absolute;
+    top: 80%;
+    right: 105px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.welcome-slider .owl-nav button.owl-next img{
+    margin-left: 8px;
+}
+
+
+.welcome-slider .owl-nav button img{
+    max-width: 36px;
+}
+
+/* ******************************
+:: 9.0 BOOKING AREA CSS
+****************************** */
+.booking-area{
+    background-color: #000;
+    padding: 80px 0 110px;
+    margin-top: -24px;
+}
+
+.buk-head h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.buk-head p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.buk-head{
+    margin-bottom: 50px;
+}
+
+form .form-group{
+    flex: 0 0 24%;
+}
+
+form .form-control{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 0;
+    padding-left: 0;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+form .form-control:focus{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    padding-left: 5px;
+    outline: none;
+    box-shadow: none;
+}
+
+form .form-control::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+form .form-group .btn-form{
+    background-color: rgba(255, 122, 0, 1);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: all .3s ease-in-out;
+    border: 1px solid rgba(255, 122, 0, 1);
+    border-radius: 0;
+    height: 50px;
+    margin-left: 20px;
+}
+
+form .form-group .btn-form:hover{
+    background-color: #000;
+}
+
+.book-bg{
+    position: absolute;
+    top: 55px;
+    left: 25px;
+}
+
+.book-bg img{
+    width: 227px;
+}
+
+
+/* ******************************
+:: 10.0 EXPERIENCE AREA CSS
+****************************** */
+.exp-area{
+    background-color: rgba(22, 22, 22, 1);
+}
+
+.exp-area .exp-content{
+    flex: 0 0 55%;
+    padding-left: 95px;
+    padding-top: 170px;
+}
+
+.exp-area .exp-img{
+    flex: 0 0 45%;
+    background-image: url(../img/bg/exp-new.png);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.exp-content h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    max-width: 465px;
+    line-height: 1.4;
+}
+
+.exp-content p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.exp-content span{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* ******************************
+:: 11.0 M5 AREA CSS
+****************************** */
+.m5-area{
+    background-color: rgba(255, 67, 67, 1);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.m5-box h1{
+    font-size: 250px;
+    font-weight: 700;
+    font-style: italic;
+    color: rgba(203, 203, 203, 1);
+}
+
+.m5-bikes{
+    margin-top: -290px;
+}
+
+.m5-bikes .bike1{
+    transform: rotate(15deg);
+    position: relative;
+    z-index: 11;
+}
+
+.m5-bikes .bike2{
+    transform: rotate(-15deg);
+    position: relative;
+    z-index: 11;
+}
+
+/* ******************************
+:: 12.0 Fighter AREA CSS
+****************************** */
+.fighter-area{
+    background-color: rgba(0, 0, 0, 1);
+    padding: 150px 0  80px;
+    margin-top: -122px;
+    z-index: 10;
+}
+
+.fighter-text h1{
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.fighter-text p{
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.fighter-text .fighter-btn a{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(173, 0, 0, 1);
+    border: 2px solid rgba(173, 0, 0, 1);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 50px;
+    transition: all .3s ease;
+}
+
+.fighter-text .fighter-btn a:hover{
+    color: rgba(173, 0, 0, 1);
+    background-color: #fff;
+}
+
+.fighter-text{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* ******************************
+:: 13.0 Se AREA CSS
+****************************** */
+.se-area{
+    background-color: rgba(254, 120, 150, 1);
+    padding: 150px 0;
+}
+
+.se-img{
+    position: relative;
+}
+
+.se-img h1{
+    font-size: 360px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 80px
+}
+
+.se-img .img{
+    position: relative;
+}
+
+.se-text h4{
+    font-size: 20px;
+    color: rgba(55, 55, 55, 1);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.se-text h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.se-text p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    line-height: 32px;
+}
+
+.se-text .text-btn a{
+    color: #fff;
+    background-color: rgba(55, 55, 55, 1);
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+}
+
+.se-text .text-btn a:hover{
+    color: rgba(55, 55, 55, 1);
+    background-color: #fff;
+}
+
+/* ******************************
+:: 14.0 venice AREA CSS
+****************************** */
+.venice-area{
+    background-color: rgba(255, 215, 104, 1);
+    padding: 130px 0;
+}
+
+.venice-area .head h1{
+    font-size: 238px;
+    color: rgba(46, 46, 46, 1);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.venice-inner{
+    display: flex;
+}
+
+.venice-inner .v-text h1{
+    color: rgba(55, 55, 55, 1);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.venice-inner .v-text p{
+    color: rgba(55, 55, 55, 1);
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+.venice-inner .v-btn a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(55, 55, 55);
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.venice-inner .v-btn a:hover{
+    color: rgb(55, 55, 55);
+    background-color: rgb(255, 255, 255);
+}
+
+.venice-inner .v-text{
+    max-width: 650px;
+}
+
+.venice-inner .v-img{
+    position: absolute;
+    right: -40px;
+    top: 108px;
+}
+
+/* ******************************
+:: 15.0 High Speed AREA CSS
+****************************** */
+.high-speed{
+    padding: 70px 0;
+}
+
+.speed-head h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.speed-head h1::after{
+    position: absolute;
+    left: 300px;
+    top: 50%;
+    content: "";
+    width: 66%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.17);
+    z-index: -1;
+}
+
+.high-speed .container-fluid{
+    padding: 0 !important;
+}
+
+.speed-slider .item{
+    margin-bottom: 30px;
+}
+
+.speed-slider .item .item-inner{
+    background-color: rgba(234, 234, 234, 1);
+    padding: 12px 130px 10px 105px;
+}
+
+.model-details{
+    padding: 18px 0 10px 50px;
+}
+
+.model-details .name h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+}
+
+.model-details .sp-btn a{
+    color: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 6px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+}
+
+.model-details .sp-btn a:hover{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.speed-slider .owl-nav{
+    position: absolute;
+    top: -80px;
+    right: 105px;
+}
+
+.speed-slider .owl-nav button{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.speed-slider .owl-nav button.owl-prev img{
+    width: 17px;
+    transform: rotate(180deg);
+    opacity: .5;
+    margin-right: 10px;
+}
+
+.speed-slider .owl-nav button.owl-next img{
+    width: 17px;
+    margin-left: 10px;
+}
+
+/* ******************************
+:: 16.0 Slow Speed AREA CSS
+****************************** */
+.slow-speed{
+    padding-top: 0;
+}
+
+.slow-speed .speed-head{
+    float: right;
+}
+
+.slow-speed .speed-head h1::after{
+    display: none;
+}
+
+.slow-speed .speed-head h1::before{
+    position: absolute;
+    right: 320px;
+    top: 50%;
+    content: "";
+    width: 280%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.17);
+    z-index: -1;
+}
+
+.speed-slider2 .owl-nav {
+    position: absolute;
+    top: -80px;
+    left: 105px;
+}
+
+/* ******************************
+:: 17.0  Feature AREA CSS
+****************************** */
+.feature-area{
+    background-image: url(../img/bg/feature-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding: 100px 0;
+}
+
+.feature-inner h1{
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 78px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.feature-inner h1 span{
+    color: rgba(255, 122, 0, 1);
+}
+
+.feature-inner .inner-boxes .box1{
+    text-align: center;
+    margin-right: 50px;
+}
+
+.feature-inner .inner-boxes .box1 .circle{
+    background-color: rgba(58, 58, 58, 1);width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.feature-inner .box1 .name h3{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.feature-inner{
+    max-width: 800px;
+}
+/* ******************************
+:: 18.0  Contact AREA CSS
+****************************** */
