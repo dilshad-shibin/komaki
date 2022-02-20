@@ -10,14 +10,14 @@
     function navMenu() {
 
         // MAIN MENU TOGGLER ICON (MOBILE SITE ONLY)
-        // $('[data-toggle="navbarToggler"]').click(function () {
-        //     $('.navbar').toggleClass('active');
-        //     $('body').toggleClass('canvas-open');
-        // });
+        $('[data-toggle="navbarToggler"]').click(function () {
+            $('.navbar').toggleClass('active');
+            $('body').toggleClass('canvas-open');
+        });
         // MAIN MENU TOGGLER ICON
-        // $('.navbar-toggler').click(function () {
-        //     $('.navbar-toggler-icon').toggleClass('active');
-        // });
+        $('.navbar-toggler').click(function () {
+            $('.navbar-toggler-icon').toggleClass('active');
+        });
 
         // NAVBAR STICKY
         var $stickyNav = $(".navbar-sticky");
@@ -104,10 +104,12 @@
         ],
         responsive: {
             0: {
-                items: 1
+                items: 1,
+                nav: false
             },
             576: {
-                items: 1
+                items: 1,
+                nav: false
             },
             768: {
                 items: 1
@@ -133,13 +135,14 @@
         ],
         responsive: {
             0: {
-                items: 1
+                items: 1.1,
+                margin: 10
             },
             576: {
-                items: 1
+                items: 1.3
             },
             768: {
-                items: 2
+                items: 2.2
             },
             992: {
                 items: 2.5

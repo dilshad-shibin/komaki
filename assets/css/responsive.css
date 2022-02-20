@@ -364,4 +364,204 @@
     }
 }
 
+@media(max-width: 1200px){
+    .speed-head h1::after{
+        width: 55%;
+    }
+    .slow-speed .speed-head h1::before{
+        width: 220%;
+    }
+}
+
+@media(max-width: 991px){
+    .homepage-1 .navbar-dark .navbar-toggler-icon{
+        background: #7e8085;
+    }
+    .homepage-1 .navbar-dark .navbar-toggler-icon.active{
+        background-color: transparent;
+    }
+    .navbar-inner{
+        background-color: rgba(0, 0, 0, 0.88);
+    }
+    .homepage-1 .navbar-dark .navbar-toggler-icon::before, 
+    .homepage-1 .navbar-dark .navbar-toggler-icon::after{
+        background: #7e8085;
+    }
+    .navbar.navbar-dark .navbar-nav .nav-link.nav-btn{
+        display: none !important;
+    }
+    .navbar-nav::before{
+        border-bottom: none;
+    }
+    .navbar.navbar-dark .navbar-nav .nav-link.first-child{
+        padding-left: 1.25rem !important;
+    }
+    .playbtn-banner a{
+        top: 10%;
+    }
+    .m5-bikes {
+        margin-top: -200px;
+    }
+    .se-img .img{
+        margin-bottom: 20px;
+    }
+    .venice-area .head h1{
+        font-size: 200px;
+    }
+    .venice-inner{
+        margin-top: 320px;
+    }
+    .venice-inner .v-img{
+        top: 150px;
+    }
+    .speed-head h1::after{
+        width: 48%;
+    }
+    .slow-speed .speed-head h1::before {
+        width: 105%;
+    }
+}
+
+@media(max-width: 767px){
+    .banner-details{
+        display: none;
+    }
+    form{
+        flex-wrap: wrap;
+    }
+    form .form-group {
+        flex: 0 0 49%;
+    }
+    .form-group{
+        margin-bottom: 1.5rem;
+    }
+    .d-block-767{
+        display: block !important;
+    }
+    .exp-area{
+        flex-direction: column;
+        padding: 70px 20px;
+    }
+    .exp-area .exp-img{
+        background-image: none;
+    }
+    .exp-area .exp-img img{
+        height: 600px;
+        margin: 0 auto;
+    }
+    .exp-area .exp-content{
+        padding-left: 40px;
+        padding-top: 0;
+        margin-bottom: 30px;
+    }
+    .venice-area .head h1 {
+        font-size: 165px;
+    }
+    .speed-head h1::after{
+        display: none;
+    }
+    .slow-speed .speed-head h1::before{
+        display: none;
+    }
+}
+
+@media(max-width: 575px){
+    .banner-title h1{
+        font-size: 45px;
+    }
+    .banner-img{
+        height: 100vh;
+    }
+    .welcome-slider .owl-dots{
+        top: -100px;
+        left: 0;
+    }
+    .banner-title h2{
+        margin-bottom: 0;
+    }
+    form .form-group{
+        flex: 0 0 100%;
+    }
+    form .form-group .btn-form{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .exp-area{
+        padding: 50px 15px;
+    }
+    .exp-area .exp-content{
+        padding-left: 0;
+    }
+    .exp-content h1{
+        font-size: 40px;
+    }
+    .exp-content p{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+    .exp-area .exp-img img{
+        height: auto;
+    }
+    .m5-area{
+        padding-top: 40px;
+    }
+    .m5-box h1{
+        font-size: 140px;
+    }
+    .m5-bikes{
+        margin-top: -123px;
+    }
+    .fighter-area{
+        margin-top: -74px;
+        padding-top: 100px;
+    }
+    .se-img h1{
+        font-size: 200px;
+        margin-left: 0;
+    }
+    .se-text h1{
+        font-size: 42px;
+        margin-bottom: 25px;
+    }
+    .venice-inner .v-img{
+        top: 75px;
+    }
+    .venice-area .head h1{
+        font-size: 90px;
+    }
+    .venice-inner {
+        margin-top: 230px;
+    }
+    .speed-head h1{
+        font-size: 20px;
+        margin-bottom: 27px;
+    }
+    .speed-slider .owl-nav{
+        top: -54px;
+        right: 35px;
+    }
+    .model-details {
+        padding: 18px 0 10px 35px;
+    }
+    .high-speed {
+        padding: 70px 0 20px;
+    }
+    .slow-speed {
+        padding-top: 0;
+    }
+    .speed-slider2 .owl-nav{
+        left: 30px;
+    }
+    .feature-inner h1{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .map-area iframe{
+        height: 400px;
+    }
+    .contact-box {
+        padding: 70px 15px;
+    }
+}
 
