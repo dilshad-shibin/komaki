@@ -563,5 +563,8 @@
     .contact-box {
         padding: 70px 15px;
     }
+    .speed-slider .item .item-inner{
+        padding: 12px 50px 10px 50px;
+    }
 }
 
