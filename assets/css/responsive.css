@@ -420,6 +420,20 @@
     .slow-speed .speed-head h1::before {
         width: 105%;
     }
+    .about-banner{
+        height: auto;
+    }
+    .about-b-text {
+        margin-top: 140px;
+        margin-bottom: 40px;
+    }
+    .about-p-img{
+        margin-bottom: 50px;
+    }
+    .pro-box{
+        margin-bottom: 35px;
+        padding: 20px 15px;
+    }
 }
 
 @media(max-width: 767px){
@@ -565,6 +579,21 @@
     }
     .speed-slider .item .item-inner{
         padding: 12px 50px 10px 50px;
+    }
+    .about-b-text h1{
+        font-size: 33px;
+    }
+    .about-b-text p{
+        font-size: 18px;
+    }
+    .about-p-img img{
+        width: auto;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .about-p-img{
+        width: 320px;
+        height: 320px;
     }
 }
 

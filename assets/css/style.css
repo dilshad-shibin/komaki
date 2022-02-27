@@ -17,6 +17,7 @@
 :: 17.0  Feature AREA CSS
 :: 18.0  Contact AREA CSS
 :: 19.0  Footer AREA CSS
+:: 20.0  About page CSS
 ****************************** */
 
 
@@ -1202,3 +1203,108 @@ form .form-group .btn-form2{
     padding: 100px 0;
     background-color: #000;
 }
+
+/* ******************************
+:: 20.0  About page CSS
+****************************** */
+.navbar-inner-about{
+    background: rgba(0, 0, 0, 1);
+}
+
+.about-banner{
+    background-color: #1e1f33;
+    height: 780px;
+}
+
+.about-b-text{
+    margin-top: 70px;
+}
+
+.about-b-text h2{
+    color: rgba(255, 255, 255, 1);
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.about-b-text h1{
+    font-size: 44px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 30px;
+}
+
+.about-b-text p{
+    color: rgba(255, 255, 255, 0.91);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    max-width: 600px;
+}
+
+.about-p-img{
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background: rgba(255, 122, 0, 1);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.about-p-img img{
+    width: 455px;
+}
+
+.bio-area{
+    background-color: rgba(247, 247, 247, 1);
+    padding: 40px 0;
+}
+
+.bio-logo img{
+    width: 300px;
+    height: 200px;
+}
+
+.bio-text p{
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.pro-capacity{
+    background-color: #000;
+    padding: 50px 0;
+}
+
+.pro-box-row{
+    margin-bottom: 30px;
+}
+
+.pro-box{
+    background-color: rgba(20, 21, 35, 1);
+    border-radius: 12px;
+    padding: 15px 12px;
+    margin-bottom: 20px;
+}
+
+.pro-box h2{
+    color: rgba(255, 122, 0, 1);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.pro-box p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.map-about iframe{
+    width: 100%;
+}
+
+/* ******************************
+:: 21.0   page CSS
+****************************** */
