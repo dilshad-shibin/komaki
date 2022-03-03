@@ -434,6 +434,15 @@
         margin-bottom: 35px;
         padding: 20px 15px;
     }
+    .ads-area{
+        margin-bottom: 90px;
+    }
+    .ft-adress{
+        margin-bottom: 50px;
+    }
+    .ft-contact {
+        padding-left: 0;
+    }
 }
 
 @media(max-width: 767px){
@@ -594,6 +603,18 @@
     .about-p-img{
         width: 320px;
         height: 320px;
+    }
+    .contact-page{
+        padding-top: 125px;
+    }
+    .ads-area h5{
+        margin-bottom: 28px;
+    }
+    .ads-area h1{
+        font-size: 32px;
+    }
+    .ads-details .ads-bx .icon{
+        flex: 0 0 14%;
     }
 }
 

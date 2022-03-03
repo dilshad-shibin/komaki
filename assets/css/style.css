@@ -18,6 +18,7 @@
 :: 18.0  Contact AREA CSS
 :: 19.0  Footer AREA CSS
 :: 20.0  About page CSS
+:: 21.0 contact  page CSS
 ****************************** */
 
 
@@ -1200,8 +1201,104 @@ form .form-group .btn-form2{
 ****************************** */
 
 .footer-area{
-    padding: 100px 0;
+    padding: 65px 0;
     background-color: #000;
+}
+
+.ft-adress h4{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.ft-adress p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 500px;
+    line-height: 32px;
+}
+
+.ft-contact{
+    padding-left: 125px;
+}
+
+.ft-contact h4{
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.ft-contact p.ft-adrs{
+    color: rgba(255, 227, 227, 1);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    max-width: 400px;
+    line-height: 32px;
+}
+
+.ft-contact p a{
+    color: rgba(255, 227, 227, 1);
+    font-size: 16px;
+    font-weight: 400;
+    transition: all .3s ease;
+}
+
+
+.ft-contact p a:hover{
+    color: rgba(255, 122, 0, 1);
+}
+
+.ft-contact p.phone{
+    margin-bottom: 30px;
+}
+
+.ft-contact .ft-btn{
+    margin-top: 50px;
+}
+
+.ft-contact .ft-btn a{
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 122, 0, 1);
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid rgba(255, 122, 0, 1);
+    transition: all .3s ease;
+}
+
+.ft-contact .ft-btn a svg{
+    margin-right: 15px;
+}
+
+.ft-contact .ft-btn a:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+footer.copy{
+    background-color: #0d0c0c;
+}
+
+.copyright-area{
+    padding: 30px 0;
+}
+
+.copyright-area p,
+.copyright-area a{
+    color: #b2b2b2;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all .3s ease;
+}
+
+.copyright-area a:hover{
+    color: rgba(255, 122, 0, 1);
 }
 
 /* ******************************
@@ -1306,5 +1403,126 @@ form .form-group .btn-form2{
 }
 
 /* ******************************
-:: 21.0   page CSS
+:: 21.0 contact  page CSS
+****************************** */
+.contact-page{
+    padding-top: 180px;
+    padding-bottom: 60px;
+}
+
+.ads-area h5{
+    color: rgba(255, 122, 0, 1);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 55px;
+    text-transform: uppercase;
+}
+
+.ads-area h1{
+    color: rgba(0, 0, 0, 1);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.ads-area p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+}
+
+.ads-details{
+    margin-top: 50px;
+}
+
+.ads-details .ads-bx{
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.ads-details .ads-bx .icon{
+    background-color: rgba(255, 122, 0, 1);
+    width: 44px;
+    height: 44px;
+    border-radius: 7px;
+    margin-right: 25px;
+    text-align: center;
+    line-height: 44px;
+}
+
+.ads-details .ads-bx .icon img{
+    width: 28px;
+    height: 28px;
+}
+
+.ads-details .ads-bx .text a,
+.ads-details .ads-bx .text p{
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.form-area h5{
+    color: rgba(255, 122, 0, 1);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 55px;
+    text-transform: uppercase;
+}
+
+.ctc-page{
+    max-width: 540px;
+}
+
+.ctc-page .form-group{
+    margin-bottom: 50px;
+}
+
+.ctc-page .form-group .form-control{
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 1);
+    border-radius: 0;
+}
+
+.ctc-page .form-group .form-control::placeholder{
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ctc-page .form-group button{
+    background: rgb(255, 122, 0);
+    color: rgb(12, 12, 12);
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    padding: 14px 40px;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+.ctc-page .form-group button:hover{
+    background-color: rgb(12, 12, 12);
+    color: #fff;
+}
+
+.ads-details .ads-bx .text p{
+    max-width: 470px;
+    line-height: 1.2;
+}
+
+.map-areas{
+    padding-bottom: 100px;
+}
+
+.map-areas h5{
+    color: rgba(255, 122, 0, 1);
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+/* ******************************
+:: 22.0   page CSS
 ****************************** */
