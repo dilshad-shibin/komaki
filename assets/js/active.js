@@ -69,7 +69,7 @@
 
     // SCROLLSPY ACTIVE CODE
     $('body').scrollspy({
-        target: '#appo-header'
+        target: ''
     });
 
     // :: 4.0 SMOOTH SCROLLING ACTIVE CODE
@@ -146,6 +146,35 @@
             },
             992: {
                 items: 2.5
+            }
+        }
+    });
+
+     // :: 7.0 Review SLIDER ACTIVE CODE
+     $('.review-slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: false,
+        dots: false,
+        smartSpeed: 2000,
+        autoplay: false,
+        autoplayTimeout: 4000,
+        // navText: [
+        //     "<img src='assets/img/bg/scroll-icon.png'> Scroll",
+        //     "<img src='assets/img/bg/scroll-icon.png'>"
+        // ],
+        responsive: {
+            0: {
+                items: 1
+            },
+            576: {
+                items: 2
+            },
+            768: {
+                items: 2
+            },
+            992: {
+                items: 3
             }
         }
     });

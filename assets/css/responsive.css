@@ -424,11 +424,31 @@
         height: auto;
     }
     .about-b-text {
-        margin-top: 140px;
+        margin-top: 0px;
         margin-bottom: 40px;
     }
+    .about-b-text h1{
+        font-size: 30px;
+        max-width: 500px;
+    }
+    .about-p-img {
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .right-side-bg{
+        display: none;
+    }
     .about-p-img{
-        margin-bottom: 50px;
+        margin-bottom: 0px;
+    }
+    .shop-img{
+        width: 100%;
+    }
+    .shop-img .playbtn-banner a{
+        top: 50%;
+    }
+    .shop-text{
+        padding: 100px;
     }
     .pro-box{
         margin-bottom: 35px;
@@ -590,7 +610,21 @@
         padding: 12px 50px 10px 50px;
     }
     .about-b-text h1{
-        font-size: 33px;
+        font-size: 26px;
+    }
+    .vision-box,
+    .mision-box{
+        padding: 30px 40px 40px;
+    }
+    .shop-img{
+        height: 300px;
+    }
+    .shop-text {
+        padding: 60px;
+    }
+    .shop-text h1{
+        font-size: 29px;
+        line-height: 45px;
     }
     .about-b-text p{
         font-size: 18px;
