@@ -24,6 +24,16 @@
         <i class="fa fa-angle-up"></i>
     </div> -->
     <!--====== Scroll To Top Area End ======--> 
+    <div id="sidemenu">
+        <div class="close_menu">
+            <i class="fas fa-times"></i>
+        </div>
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active2">Contact</a></li>
+        </ul>
+    </div>
 
     <div class="main">
         <!-- ***** Header Start ***** -->
@@ -50,11 +60,16 @@
                             <li class="nav-item">
                                 <a class="nav-link last-child" href="">High speed</a>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <button class="navbar-toggler d-block nav-link nav-btn" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                            </li>
+                            </li> -->
+                            <div id="toggle_menu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
                         </ul>
                     </nav>
                 </div>
@@ -181,6 +196,32 @@
     <script src="assets/js/bootstrap/bootstrap.min.js"></script>
     <script src="assets/js/plugins/plugins.min.js"></script>
     <script src="assets/js/active.js"></script>
+
+    <script>
+        (function () {
+            $('#toggle_menu').click(() => {
+                $('#sidemenu').addClass('side_active');
+            })
+            $('.close_menu svg').click(() => {
+                alert('hai');
+                $('#sidemenu').removeClass('side_active');
+            })
+
+        })();
+
+
+        $('#sidemenu ul li a').click(function () {
+            $('#sidemenu ul li a').removeClass('active1');
+            $(this).addClass('active1');
+            $('#sidemenu').removeClass('side_active');
+        })
+
+        $('#sidemenu ul li a').click(function () {
+            $('#sidemenu ul li a').removeClass('active2');
+            $(this).addClass('active2');
+
+        })
+    </script>
 </body>
 
 </html>

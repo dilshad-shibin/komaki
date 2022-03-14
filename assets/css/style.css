@@ -1652,5 +1652,93 @@ footer.copy{
     margin-bottom: 25px;
 }
 /* ******************************
-:: 22.0   page CSS
+:: 22.0 Side Menu page CSS
 ****************************** */
+/* side menu */
+
+#sidemenu{
+    position: fixed;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    background: rgb(221, 221, 221);
+    z-index: 9999;
+    display: none;
+    transition: 0.3s ease-in-out;
+    
+}
+.side_active{
+    right:0px!important;
+    transition: 0.3s ease-in-out;
+}
+.close_menu{
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.close_menu svg{
+    float: right;
+    color: #000;
+    font-size: 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top:35px;
+    left: 85%;
+}
+#sidemenu ul{
+    padding: 0;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+#sidemenu ul li {
+    list-style: none;
+    /* border-bottom: 1px solid rgb(68, 59, 59); */
+}
+#sidemenu ul li a{
+    display: block;
+    padding: 5px;
+    color: black;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    
+}
+#toggle_menu{
+    display: none;
+}
+#toggle_menu span{
+    display: none;
+}
+
+
+@media(max-width: 1200px){
+    #sidemenu{
+        display: block !important;
+        padding: 5px;
+    }
+    /* .nav_links{
+    display: none;
+    }     */
+    #toggle_menu{
+        float: right;
+        height: 35px;
+        width: 30px;
+        position: relative;
+        /*top: -95px;*/
+        top: 28px;
+        display: block;
+    }
+    #toggle_menu span{
+        display: block;
+        height: 2px;
+        background: #fff;
+        margin-top: 5px;
+        display: block;
+    }
+    .active2{
+        font-weight: bold;
+        color: black !important;
+    }
+}

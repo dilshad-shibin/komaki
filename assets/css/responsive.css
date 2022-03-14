@@ -650,5 +650,9 @@
     .ads-details .ads-bx .icon{
         flex: 0 0 14%;
     }
+    #toggle_menu{
+        width: 50px;
+        padding-left: 20px;
+    }
 }
 
