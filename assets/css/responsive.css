@@ -463,6 +463,16 @@
     .ft-contact {
         padding-left: 0;
     }
+    .contact-nav {
+        padding-top: 50px;
+        flex-direction: column;
+    }
+    .div-content{
+        padding-bottom: 100px;
+    }
+    .div-form{
+        padding-bottom: 100px;
+    }
 }
 
 @media(max-width: 767px){
@@ -505,6 +515,9 @@
     }
     .slow-speed .speed-head h1::before{
         display: none;
+    }
+    .div-form{
+        padding-left: 120px;
     }
 }
 
@@ -653,6 +666,36 @@
     #toggle_menu{
         width: 50px;
         padding-left: 20px;
+    }
+    .div-content {
+        padding-bottom: 50px;
+        padding-top: 55px;
+    }
+    .contact-text h1 {
+        color: #fff;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 60px;
+        padding-left: 15px;
+        max-width: 500px;
+    }
+    .div-form {
+        padding-left: 15px;
+        padding-top: 50px;
+        padding-right: 50px;
+    }
+    .form-area h5{
+        font-size: 20px;
+        margin-bottom: 45px;
+    }
+    .adrs-div{
+        flex-direction: column;
+    }
+    .adrs-bx{
+        margin-bottom: 30px;
+    }
+    .adrs-div .ctn{
+        padding-left: 0;
     }
 }
 
